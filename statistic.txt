@@ -1,0 +1,9 @@
+Dataset=network.JohnsCreek.txt
+MethodType=RFS
+KernelType=Triangular
+LixelInterval=50
+BandWidth=1000
+PrepareTime=0.779695
+RunningTime=0.621223
+DijkstraTime=0.110722
+
