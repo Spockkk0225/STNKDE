@@ -10,13 +10,21 @@ This file includes:
 
 ```
 first line: compile command with c++11 and O3 optimization
-dataset: network and event datasets
+
+dataset: network and event datasets(file name is network.XXX.txt)
+
 statistic: statistics output file(parameters, time, and etc.)
+
 method: algorithms methods(RQS, SPS, RAS, RTS, RFS, DRFS)
+
 kernel: kernel functions(Triangular, Cosine, Exponential)
+
 lixel_interval: length of each lixel(10, 20, 30, 40, 50 in the paper)
+
 spatial_bandwidth: bandwidth of distance(1000, 2000, 4000, 7000, 10000 in the paper)
+
 h_value: tree depth used in DRFS
+
 start_time/end_time: specified querying time range, [20%,80%] as default
 ```
 
@@ -42,7 +50,7 @@ Then each line is an edge, including two endpoints ID and its length.
 
 Finally each line is an event, including two endpoints of the edge, the distance away from the frist endpoint, and its time.
 
-Part of `JohnsCreek`:
+Part of `network.JohnsCreek.txt`:
 
 ```
 3074 3471
